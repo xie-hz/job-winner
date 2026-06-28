@@ -1,0 +1,253 @@
+{
+  "appHeader": {
+    "appTitle": "求职赢家",
+    "selectLanguage": "选择语言",
+    "darkMode": "深色模式",
+    "lightMode": "浅色模式",
+    "newJobApplication": "新建求职申请",
+    "bookmarks": "书签",
+    "qa": "面试问答",
+    "interviewList": "面试列表",
+    "offerList": "Offer 列表",
+    "profile": "个人资料",
+    "githubStar": "喜欢这个项目？去 GitHub 点个 ⭐ 吧！",
+    "githubLink": "点个 ⭐"
+  },
+  "searchBar": {
+    "placeholder": "搜索…"
+  },
+  "dialogs": {
+    "confirmDeletion": {
+      "title": "确认删除",
+      "content": "确定要删除这个书签吗？此操作不可撤销。",
+      "cancel": "取消",
+      "delete": "删除"
+    },
+    "addBookmark": {
+      "title": "书签",
+      "editTitle": "编辑书签",
+      "fields": {
+        "title": "标题",
+        "url": "链接"
+      },
+      "errors": {
+        "titleRequired": "标题不能为空。",
+        "urlRequired": "链接不能为空。"
+      },
+      "success": "书签删除成功！",
+      "error": "删除书签失败。",
+      "noUrls": "暂无书签"
+    },
+    "addQuestion": {
+      "title": "添加问答",
+      "editTitle": "编辑问答",
+      "fields": {
+        "question": "问题",
+        "answer": "答案"
+      },
+      "errors": {
+        "questionRequired": "问题不能为空。",
+        "answerRequired": "答案不能为空。"
+      },
+      "success": "问答更新成功！",
+      "error": "保存问答失败，请重试。"
+    },
+    "addApplication": {
+      "title": "添加求职申请",
+      "editTitle": "编辑求职申请"
+    },
+    "editApplication": {
+      "title": "编辑求职申请"
+    },
+    "applicationTabs": {
+      "details": "详情",
+      "notes": "备注"
+    },
+    "interviewList": {
+      "title": "面试列表",
+      "columns": {
+        "companyName": "公司名称",
+        "interviewDate": "面试日期",
+        "interviewer": "面试官",
+        "note": "备注",
+        "status": "状态",
+        "jobApplication": "求职申请"
+      },
+      "jobDetails": "职位详情"
+    },
+    "jobApplication": {
+      "addTitle": "添加求职申请",
+      "editTitle": "编辑求职申请",
+      "tabs": {
+        "application": "申请",
+        "interviews": "面试",
+        "offer": "Offer"
+      }
+    },
+    "question": {
+      "title": "面试问答"
+    },
+    "profile": {
+      "title": "个人资料",
+      "fields": {
+        "firstName": "名",
+        "lastName": "姓",
+        "addressStreet1": "地址行 1",
+        "addressStreet2": "地址行 2",
+        "addressCity": "城市",
+        "addressState": "州/省",
+        "addressZip": "邮政编码",
+        "email": "邮箱",
+        "telephone": "电话号码",
+        "linkedin": "LinkedIn",
+        "github": "GitHub",
+        "personalWebsite": "个人网站"
+      },
+      "success": "个人资料保存成功！"
+    },
+    "offerList": {
+      "title": "Offer 列表",
+      "columns": {
+        "companyName": "公司名称",
+        "offerDate": "Offer 日期",
+        "salaryOffered": "薪资待遇",
+        "note": "备注",
+        "jobApplication": "求职申请"
+      },
+      "jobDetails": "职位详情"
+    }
+  },
+  "forms": {
+    "applicationForm": {
+      "fields": {
+        "companyName": "公司名称",
+        "jobTitle": "职位名称",
+        "salaryRange": "薪资范围",
+        "description": "职位描述",
+        "note": "备注",
+        "jobUrl": "职位链接",
+        "status": "状态",
+        "appliedDate": "投递日期"
+      },
+      "status": {
+        "open": "待投递",
+        "active": "进行中",
+        "ghosted": "无回应",
+        "rejected": "已拒"
+      },
+      "errors": {
+        "companyNameRequired": "公司名称不能为空。",
+        "jobTitleRequired": "职位名称不能为空。",
+        "salaryRangeRequired": "薪资范围不能为空。",
+        "appliedDateRequired": "请输入有效的投递日期。"
+      }
+    },
+    "offerForm": {
+      "fields": {
+        "offerDate": "Offer 日期",
+        "salaryOffered": "薪资待遇",
+        "description": "描述"
+      },
+      "errors": {
+        "offerDateRequired": "Offer 日期不能为空。",
+        "salaryOfferedRequired": "薪资待遇不能为空。"
+      },
+      "messages": {
+        "addSuccess": "Offer 添加成功！",
+        "updateSuccess": "Offer 更新成功！",
+        "deleteSuccess": "Offer 删除成功！",
+        "deleteError": "删除 Offer 失败。",
+        "error": "发生错误，请重试。"
+      },
+      "buttons": {
+        "addOffer": "添加 Offer",
+        "delete": "删除",
+        "confirmDelete": "确认删除"
+      },
+      "dialogs": {
+        "confirmDelete": {
+          "title": "确认删除",
+          "content": "确定要删除这个 Offer 吗？此操作不可撤销。"
+        }
+      }
+    },
+    "interviewsForm": {
+      "fields": {
+        "interviewDate": "面试日期",
+        "interviewer": "面试官",
+        "description": "描述",
+        "status": "状态"
+      },
+      "errors": {
+        "interviewDateRequired": "请输入有效的面试日期。"
+      }
+    }
+  },
+  "jobApplicationList": {
+    "messages": {
+      "deleteSuccess": "求职申请删除成功！",
+      "deleteError": "删除求职申请失败。",
+      "fetchError": "获取数据失败，请检查网络连接后重试。",
+      "noResults": "没有匹配的求职申请。"
+    },
+    "dialogs": {
+      "confirmDelete": {
+        "title": "确认删除",
+        "content": "确定要删除这条求职申请吗？此操作不可撤销。"
+      }
+    }
+  },
+  "jobStatusBar": {
+    "all": "全部",
+    "open": "待投递",
+    "active": "进行中",
+    "ghosted": "无回应",
+    "rejected": "已拒"
+  },
+  "common": {
+    "cancel": "取消",
+    "add": "添加",
+    "save": "保存",
+    "delete": "删除",
+    "loading": "加载中…",
+    "noData": "暂无数据。",
+    "na": "无",
+    "errorMessage": "出了点问题，请稍后重试。",
+    "error": "错误"
+  },
+  "questionContent": {
+    "messages": {
+      "deleteSuccess": "问答删除成功！",
+      "deleteError": "删除问答失败。",
+      "noQuestions": "暂无问答内容。"
+    },
+    "dialogs": {
+      "confirmDelete": {
+        "title": "确认删除",
+        "content": "确定要删除这条问答吗？此操作不可撤销。"
+      }
+    }
+  },
+  "interviews": {
+    "date": "面试日期",
+    "interviewer": "面试官",
+    "status": "状态",
+    "statuses": {
+      "open": "待面试",
+      "canceled": "已取消",
+      "pending": "待定",
+      "rejected": "未通过",
+      "expired": "已过期"
+    },
+    "description": "描述",
+    "add": "添加面试",
+    "messages": {
+      "addSuccess": "面试添加成功！",
+      "saveSuccess": "面试保存成功！",
+      "deleteSuccess": "面试删除成功！",
+      "addError": "添加面试失败。",
+      "saveError": "保存面试失败。",
+      "deleteError": "删除面试失败。"
+    }
+  }
+}

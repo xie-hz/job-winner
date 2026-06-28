@@ -1,0 +1,1 @@
+ALTER TABLE question MODIFY COLUMN answer VARCHAR(1000);
